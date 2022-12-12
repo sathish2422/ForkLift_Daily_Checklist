@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start"
+    android:id="@+id/drawer"
+    tools:context=".FirstPage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginRight="8dp"
+        android:textAlignment="center"
+        android:text="Free Forklift Inspection and Safety Checklists for Daily and Pre-Operational Use
+Build a culture of forklift safety using mobile-ready checklists
+
+
+operator using forklift after pre-operation and operational inspections
+Published 9 Jun 2022
+
+What is a Forklift Checklist?
+A forklift checklist is a tool used by forklift operators to ensure that powered industrial trucks are in good working condition before use. Forklift checklists are used in conducting safety inspections and maintenance checks to reduce the likelihood of avoidable injuries and deaths caused by faulty forklifts in warehouses, factories, shipping yards, and other workplaces.
+
+Also known as forklift drivers, forklift operators drive industrial trucks and specialize in warehouse transportation. Their primary responsibilities include loading and unloading warehouse material, optimizing loads to ensure operational efficiency and identifying damages to vehicles.
+Forklift Operator Job Description Template
+We are looking for technically skilled candidates with excellent attention to detail for the position of forklift operator. Forklift operators are responsible for optimizing loads to ensure operational efficiency, scheduling vehicles for maintenance and repairs, and managing inventory by utilizing RF scanning equipment, among other duties.
+
+Forklift operators will need to transport valuable items, requiring diligence and good hand-eye coordination.
+
+Forklift Operator Responsibilities:
+Loading, unloading, shipping, and receiving warehouse items.
+Transporting materials to different locations within the facility.
+Optimizing loads to ensure operational efficiency.
+Securing loads to the machine before transportation.
+Inspecting for damages to vehicles.
+Scheduling vehicles for maintenance and repairs.
+Operating and managing technical equipment.
+Managing inventory by utilizing RF scanning equipment.
+Picking and wrapping orders for shipment.
+Identifying workplace safety hazards.
+Adhering to safety management standards.
+Adhering to production schedules.
+Forklift Operator Requirements:
+High school diploma or GED.
+Valid fork-lifting certificate.
+Excellent hand-eye coordination.
+Proficiency in operating technical machinery and RF scanners.
+Good physical condition.
+Mathematical aptitude.
+Good organizational skills.
+Attention to detail.
+Good written and verbal communication."/>
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:id="@+id/panel"
+        android:background="#E7E7E7"
+        app:title="    Home"
+        android:gravity="center" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navmenu"
+        app:menu="@menu/navigation_menu"
+        app:headerLayout="@layout/activity_navigation_header"
+        android:layout_gravity="start"/>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

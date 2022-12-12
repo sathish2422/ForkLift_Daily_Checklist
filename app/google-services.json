@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "700379581885",
+    "firebase_url": "https://forklift-aa439-default-rtdb.firebaseio.com",
+    "project_id": "forklift-aa439",
+    "storage_bucket": "forklift-aa439.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700379581885:android:02c40c7254ec8f266dd6d4",
+        "android_client_info": {
+          "package_name": "com.example.forkliftdailychecklist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700379581885-ij0ir4ibl1etqoad7puo4a536tc6e7hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_UAdemhY5iY-Sz3XtUPhl8zKC52tjyXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700379581885-ij0ir4ibl1etqoad7puo4a536tc6e7hf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
